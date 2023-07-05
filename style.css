@@ -7,6 +7,7 @@
 }
 body{
     background: black;
+    color: #e4e4e4;
 }
 .header {
     position: fixed;
@@ -80,6 +81,6 @@ body{
     font-size: 22px;
     color: #e4e4e4;
 }
-section {
+.container {
     color: white;
 }
