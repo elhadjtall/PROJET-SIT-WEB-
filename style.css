@@ -152,6 +152,13 @@ body{
     border-bottom-right-radius: 10px;
     color: #e4e4e4;
 }
+.logreg-box .form-box.login {
+    transform: translateX(0);
+    transition: transform .6s ease;
+}
+.logreg-box.active .form-box.login{
+    transition-delay: 0s;
+}
 .logreg-box .form-box.register{
     transform: translateX(430px);
 }
