@@ -148,6 +148,7 @@ body{
     text-align: center;
 }
 .form-box .input-box {
+    position: relative;
     width: 340px;
     height: 50px;
     border-bottom: 2px solid #e4e4e4;
@@ -165,4 +166,10 @@ body{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+}
+.input-box .icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 20px;
 }
