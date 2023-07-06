@@ -7,7 +7,6 @@
 }
 body{
     background: black;
-    color: #e4e4e4;
 }
 .header {
     position: fixed;
@@ -82,5 +81,14 @@ body{
     color: #e4e4e4;
 }
 .container {
-    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    background: url(fond1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
