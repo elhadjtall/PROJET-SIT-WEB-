@@ -162,7 +162,7 @@ body{
 }
 .logreg-box .form-box.register{
     transform: translateX(430px);
-    transition: transform .5s;
+    transition: transform ;
 }
 .logreg-box.active .form-box.register{
     transform: translateX(0);
