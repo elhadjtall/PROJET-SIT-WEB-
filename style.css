@@ -83,7 +83,7 @@ body{
 .backroug {
     width: 100%;
     height: 100vh;
-    background: url(fond.jpg) no-repeat;
+    background: url(images/fond1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     filter: blur(10px);

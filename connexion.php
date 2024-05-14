@@ -1,3 +1,18 @@
-<!-- Inscription -->
+<!-- Connexion à la base de donnée -->
 <?php
-    $bdd = new PDO('mysql:host=localhost;dbname=projetweb;charset=utf8', 'root', '');
+
+$host = 'localhost';
+$db   = 'projet_site';
+$user = 'root';
+$mdp = '';
+
+$db_handle = mysqli_connect($host,$user,$mdp,$db);
+if($db_handle)
+{
+    echo 'Connexion à la base de donnée réussie <br/>';
+}
+else
+{
+    echo 'Connexion à la base de donnée échouée <br/>';
+}
+
